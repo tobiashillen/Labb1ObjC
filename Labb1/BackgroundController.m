@@ -1,18 +1,32 @@
 //
-//  ViewController.m
+//  BackgroundController.m
 //  Labb1
 //
-//  Created by Tobias Hillén on 2017-01-10.
+//  Created by Tobias Hillén on 2017-01-15.
 //  Copyright © 2017 Tobias Hillén. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BackgroundController.h"
 
-@interface ViewController ()
+@interface BackgroundController ()
 
 @end
 
-@implementation ViewController
+@implementation BackgroundController
+
+- (IBAction)whiteBgOption {
+    NSUserDefaults *pref = [NSUserDefaults standardUserDefaults];
+    [pref setInteger:1 forKey:@"BgColor"];
+    [pref synchronize];
+    self.view.backgroundColor = [UIColor whiteColor];
+}
+
+- (IBAction)blackBgOption {
+    NSUserDefaults *pref = [NSUserDefaults standardUserDefaults];
+    [pref setInteger:2 forKey:@"BgColor"];
+    [pref synchronize];
+    self.view.backgroundColor = [UIColor blackColor];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,12 +45,6 @@
     } else {
         self.view.backgroundColor = [UIColor blackColor];
     }
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 

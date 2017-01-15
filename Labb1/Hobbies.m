@@ -1,18 +1,20 @@
 //
-//  ViewController.m
+//  Hobbies.m
 //  Labb1
 //
-//  Created by Tobias Hillén on 2017-01-10.
+//  Created by Tobias Hillén on 2017-01-15.
 //  Copyright © 2017 Tobias Hillén. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Hobbies.h"
 
-@interface ViewController ()
+@interface Hobbies ()
+
+@property (weak, nonatomic) IBOutlet UIView *textBg;
 
 @end
 
-@implementation ViewController
+@implementation Hobbies
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -20,6 +22,7 @@
     NSInteger bgColor = [pref integerForKey:@"BgColor"];
     if (bgColor == 1){
         self.view.backgroundColor = [UIColor whiteColor];
+        self.textBg.backgroundColor = [UIColor whiteColor];
     }
 }
 

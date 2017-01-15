@@ -13,6 +13,9 @@
 		8B8731C51E252C660035EFB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8731C31E252C660035EFB4 /* Main.storyboard */; };
 		8B8731C71E252C660035EFB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8731C61E252C660035EFB4 /* Assets.xcassets */; };
 		8B8731CA1E252C660035EFB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8731C81E252C660035EFB4 /* LaunchScreen.storyboard */; };
+		8BCCE0211E2BFB14001BC9E8 /* BackgroundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCE0201E2BFB14001BC9E8 /* BackgroundController.m */; };
+		8BCCE0251E2C16B0001BC9E8 /* Information.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCE0241E2C16B0001BC9E8 /* Information.m */; };
+		8BCCE0271E2C1975001BC9E8 /* Hobbies.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCE0261E2C1975001BC9E8 /* Hobbies.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		8B8731C61E252C660035EFB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B8731C91E252C660035EFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B8731CB1E252C660035EFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BCCE0201E2BFB14001BC9E8 /* BackgroundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundController.m; sourceTree = "<group>"; };
+		8BCCE0221E2BFB6D001BC9E8 /* BackgroundController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundController.h; sourceTree = "<group>"; };
+		8BCCE0231E2C1686001BC9E8 /* Information.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Information.h; sourceTree = "<group>"; };
+		8BCCE0241E2C16B0001BC9E8 /* Information.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Information.m; sourceTree = "<group>"; };
+		8BCCE0261E2C1975001BC9E8 /* Hobbies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hobbies.m; sourceTree = "<group>"; };
+		8BCCE0281E2C19A7001BC9E8 /* Hobbies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hobbies.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +70,14 @@
 				8B8731BD1E252C660035EFB4 /* AppDelegate.h */,
 				8B8731BE1E252C660035EFB4 /* AppDelegate.m */,
 				8B8731C01E252C660035EFB4 /* ViewController.h */,
+				8BCCE0231E2C1686001BC9E8 /* Information.h */,
+				8BCCE0241E2C16B0001BC9E8 /* Information.m */,
+				8BCCE0221E2BFB6D001BC9E8 /* BackgroundController.h */,
 				8B8731C11E252C660035EFB4 /* ViewController.m */,
+				8BCCE0201E2BFB14001BC9E8 /* BackgroundController.m */,
 				8B8731C31E252C660035EFB4 /* Main.storyboard */,
+				8BCCE0261E2C1975001BC9E8 /* Hobbies.m */,
+				8BCCE0281E2C19A7001BC9E8 /* Hobbies.h */,
 				8B8731C61E252C660035EFB4 /* Assets.xcassets */,
 				8B8731C81E252C660035EFB4 /* LaunchScreen.storyboard */,
 				8B8731CB1E252C660035EFB4 /* Info.plist */,
@@ -151,6 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B8731C21E252C660035EFB4 /* ViewController.m in Sources */,
+				8BCCE0251E2C16B0001BC9E8 /* Information.m in Sources */,
+				8BCCE0271E2C1975001BC9E8 /* Hobbies.m in Sources */,
+				8BCCE0211E2BFB14001BC9E8 /* BackgroundController.m in Sources */,
 				8B8731BF1E252C660035EFB4 /* AppDelegate.m in Sources */,
 				8B8731BC1E252C660035EFB4 /* main.m in Sources */,
 			);
